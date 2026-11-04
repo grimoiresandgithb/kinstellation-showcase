@@ -83,6 +83,22 @@ export default function PrototypeShowcase() {
               </p>
             </div>
           </div>
+          
+        <div className="mb-12 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+        <a
+            href="https://kinstellation-psi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full bg-[#B7A9F5] px-8 py-4 font-semibold text-[#17152F] transition hover:bg-[#FFE0AA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFE0AA]"
+        >
+            Launch Interactive Demo ↗
+        </a>
+
+        <p className="text-sm text-[#F6F0FF]/70">
+            Explore the working prototype in a new tab.
+        </p>
+        </div>
+
 
           <div className="rounded-3xl border border-[#65CFDF]/25 bg-[#302546]/80 p-5 shadow-xl sm:p-7">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
