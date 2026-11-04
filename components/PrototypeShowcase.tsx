@@ -9,6 +9,7 @@ export default function PrototypeShowcase() {
       className="scroll-mt-12 px-6 py-24 sm:py-32"
     >
       <div className="mx-auto max-w-5xl">
+        {/* Section heading */}
         <p className="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-[#65CFDF]">
           02 / The Prototype
         </p>
@@ -20,10 +21,26 @@ export default function PrototypeShowcase() {
           Explore the constellation.
         </h2>
 
-        <p className="mb-14 max-w-3xl text-base leading-8 text-[#F6F0FF]/90 sm:text-lg">
+        <p className="mb-8 max-w-3xl text-base leading-8 text-[#F6F0FF]/90 sm:text-lg">
           A connected, visual approach to organizing the
           people and details that matter.
         </p>
+
+        {/* Interactive demo button */}
+        <div className="mb-12 flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-start sm:text-left">
+          <a
+            href="https://kinstellation-psi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full bg-[#B7A9F5] px-8 py-4 text-center font-semibold text-[#17152F] transition hover:bg-[#FFE0AA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFE0AA]"
+          >
+            Launch Interactive Demo ↗
+          </a>
+
+          <p className="text-sm text-[#F6F0FF]/70">
+            Explore the working prototype in a new tab.
+          </p>
+        </div>
 
         {/* Featured constellation screenshot */}
         <div className="overflow-hidden rounded-3xl border border-[#B7A9F5]/30 bg-[#302546]/80 p-4 shadow-2xl sm:p-7">
@@ -54,8 +71,9 @@ export default function PrototypeShowcase() {
           </div>
         </div>
 
-        {/* Profile and detail entry */}
+        {/* Profile and detail entry screenshots */}
         <div className="mt-8 grid gap-8 md:grid-cols-2">
+          {/* Star Profile */}
           <div className="rounded-3xl border border-[#F276B5]/25 bg-[#302546]/80 p-5 shadow-xl sm:p-7">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
               <Image
@@ -83,23 +101,8 @@ export default function PrototypeShowcase() {
               </p>
             </div>
           </div>
-          
-        <div className="mb-12 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-        <a
-            href="https://kinstellation-psi.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-full bg-[#B7A9F5] px-8 py-4 font-semibold text-[#17152F] transition hover:bg-[#FFE0AA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFE0AA]"
-        >
-            Launch Interactive Demo ↗
-        </a>
 
-        <p className="text-sm text-[#F6F0FF]/70">
-            Explore the working prototype in a new tab.
-        </p>
-        </div>
-
-
+          {/* Add Detail */}
           <div className="rounded-3xl border border-[#65CFDF]/25 bg-[#302546]/80 p-5 shadow-xl sm:p-7">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
               <Image
