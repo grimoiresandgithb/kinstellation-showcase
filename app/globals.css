@@ -1,26 +1,73 @@
+
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --midnight: #17152f;
+  --deep-nebula: #302546;
+  --starlight: #f6f0ff;
+  --cosmic-lavender: #b7a9f5;
+  --nebula-pink: #f276b5;
+  --orbit-blue: #65cfdf;
+  --star-glow: #ffe0aa;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--midnight);
+  --color-foreground: var(--starlight);
+  --font-sans: var(--font-montserrat);
+  --font-display: var(--font-cinzel);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--midnight);
+  color: var(--starlight);
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-cinzel), serif;
+}
+
+.cosmic-background {
+  background-image:
+    linear-gradient(
+      rgba(23, 21, 47, 0.55),
+      rgba(23, 21, 47, 0.78)
+    ),
+    url("/images/nebula-background.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: var(--nebula-pink);
+  color: var(--midnight);
+}
+
+
+
+.section-divider {
+  height: 1px;
+  max-width: 72rem;
+  margin: 0 auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(183, 169, 245, 0.45),
+    transparent
+  );
 }
