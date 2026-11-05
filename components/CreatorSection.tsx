@@ -69,7 +69,13 @@ export default function CreatorSection() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              {/* Replace placeholders with your real links */}
+
+                <a
+                    href="mailto:alyssalrd@gmail.com?subject=Hello%20from%20Kinstellation"
+                    className="inline-flex items-center justify-center rounded-full bg-[#B7A9F5] px-6 py-3 font-semibold text-[#17152F] transition hover:bg-[#FFE0AA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFE0AA]"
+                >
+                    ✉ Email Me
+                </a>
               <a
                 href="https://www.linkedin.com/in/alyssa-d/"
                 target="_blank"

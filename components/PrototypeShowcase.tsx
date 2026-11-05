@@ -22,8 +22,9 @@ export default function PrototypeShowcase() {
         </h2>
 
         <p className="mb-8 max-w-3xl text-base leading-8 text-[#F6F0FF]/90 sm:text-lg">
-          A connected, visual approach to organizing the
-          people and details that matter.
+          Explore your connections, capture meaningful details,
+          and find information when you need it through
+          natural-language search.
         </p>
 
         {/* Interactive demo button */}
@@ -71,62 +72,89 @@ export default function PrototypeShowcase() {
           </div>
         </div>
 
-        {/* Profile and detail entry screenshots */}
-        <div className="mt-8 grid gap-8 md:grid-cols-2">
+        {/* Three feature screenshots */}
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
           {/* Star Profile */}
-          <div className="rounded-3xl border border-[#F276B5]/25 bg-[#302546]/80 p-5 shadow-xl sm:p-7">
+          <div className="rounded-3xl border border-[#F276B5]/25 bg-[#302546]/80 p-5 shadow-xl">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
               <Image
                 src="/images/star-profile.png"
                 alt="Kinstellation star profile showing personal details"
                 fill
-                sizes="(max-width: 768px) 100vw, 450px"
+                sizes="(max-width: 768px) 100vw, 320px"
                 className="object-contain"
               />
             </div>
 
             <div className="pt-7">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#F276B5]">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#F276B5]">
                 02 / Remember the details
               </p>
 
-              <h3 className="mb-3 text-2xl text-[#FFE0AA]">
+              <h3 className="mb-3 text-xl text-[#FFE0AA]">
                 Every star has a story.
               </h3>
 
-              <p className="leading-7 text-[#F6F0FF]/85">
+              <p className="text-sm leading-7 text-[#F6F0FF]/85">
                 Individual profiles provide a home for
-                the meaningful information associated
-                with each person.
+                meaningful information about each person.
               </p>
             </div>
           </div>
 
           {/* Add Detail */}
-          <div className="rounded-3xl border border-[#65CFDF]/25 bg-[#302546]/80 p-5 shadow-xl sm:p-7">
+          <div className="rounded-3xl border border-[#65CFDF]/25 bg-[#302546]/80 p-5 shadow-xl">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
               <Image
                 src="/images/add-detail.png"
                 alt="Kinstellation interface for adding a detail to a person's profile"
                 fill
-                sizes="(max-width: 768px) 100vw, 450px"
+                sizes="(max-width: 768px) 100vw, 320px"
                 className="object-contain"
               />
             </div>
 
             <div className="pt-7">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#65CFDF]">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#65CFDF]">
                 03 / Capture what matters
               </p>
 
-              <h3 className="mb-3 text-2xl text-[#FFE0AA]">
+              <h3 className="mb-3 text-xl text-[#FFE0AA]">
                 The little things belong somewhere.
               </h3>
 
-              <p className="leading-7 text-[#F6F0FF]/85">
-                A dedicated detail-entry experience
-                makes it easy to capture information
-                within the context of a connection.
+              <p className="text-sm leading-7 text-[#F6F0FF]/85">
+                Capture meaningful details directly within
+                the context of a connection.
+              </p>
+            </div>
+          </div>
+
+          {/* Search */}
+          <div className="rounded-3xl border border-[#B7A9F5]/25 bg-[#302546]/80 p-5 shadow-xl">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#17152F]">
+              <Image
+                src="/images/search.png"
+                alt="Kinstellation search interface displaying matching information"
+                fill
+                sizes="(max-width: 768px) 100vw, 320px"
+                className="object-contain"
+              />
+            </div>
+
+            <div className="pt-7">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#B7A9F5]">
+                04 / Find what matters
+              </p>
+
+              <h3 className="mb-3 text-xl text-[#FFE0AA]">
+                Remember without searching your memory.
+              </h3>
+
+              <p className="text-sm leading-7 text-[#F6F0FF]/85">
+                Use natural-language search to find
+                information across your connections
+                when you need it.
               </p>
             </div>
           </div>

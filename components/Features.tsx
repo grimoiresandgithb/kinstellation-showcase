@@ -33,6 +33,11 @@ const futureFeatures = [
     description:
       "Investigate optional birthday and location-based alerts that help surface relevant details at useful moments.",
   },
+  {
+    title: "Find what matters",
+    description: 
+        "Search across your connections using natural-language filtering to retrieve meaningful details when you need them."
+  },
 ];
 
 export default function Features() {
