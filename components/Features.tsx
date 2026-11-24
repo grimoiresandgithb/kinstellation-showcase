@@ -3,40 +3,55 @@ const currentFeatures = [
   {
     title: "Visual connections",
     description:
-      "Explore relationships through an interactive constellation.",
+      "Explore your relationships through an interactive constellation, where every star represents someone in your life.",
   },
   {
-    title: "Personal profiles",
+    title: "Meaningful profiles",
     description:
-      "Keep meaningful information about the people in your life.",
+      "Keep birthdays, preferences, interests, memories, and important details together in each person's profile.",
   },
   {
-    title: "Voice-to-text",
+    title: "Connected relationships",
     description:
-      "Capture information using spoken input.",
+      "Discover how the people in your universe are connected through family, friendship, and chosen community.",
   },
   {
-    title: "Natural-language filtering",
+    title: "Voice-to-text input",
     description:
-      "Find information using conversational search terms.",
+      "Ask questions or capture thoughts using your voice, with everything returned as readable text.",
+  },
+  {
+    title: "AI-assisted search",
+    description:
+      "Ask natural-language questions like 'Who likes pottery?' or 'What does Maya enjoy?' to find relevant saved information.",
+  },
+  {
+    title: "Flexible memory capture",
+    description:
+      "Capture meaningful details using natural-language input or organize them within individual profiles.",
   },
 ];
 
 const futureFeatures = [
   {
-    title: "AI-assisted interaction",
-    description:
-      "Explore intelligent interpretation of natural-language input and information retrieval.",
-  },
-  {
     title: "Thoughtful reminders",
     description:
-      "Investigate optional birthday and location-based alerts that help surface relevant details at useful moments.",
+      "Explore optional birthday, occasion, and context-aware reminders that surface useful information at the right moment.",
   },
   {
-    title: "Find what matters",
-    description: 
-        "Search across your connections using natural-language filtering to retrieve meaningful details when you need them."
+    title: "Smarter memory capture",
+    description:
+      "Expand AI-assisted input to recognize and organize multiple meaningful details from a single thought, with user confirmation before saving.",
+  },
+  {
+    title: "Discover shared interests",
+    description:
+      "Explore connections between people, hobbies, and preferences through a richer interactive relationship graph.",
+  },
+  {
+    title: "A universe that grows with you",
+    description:
+      "Develop more ways to organize, explore, and maintain meaningful connections while keeping the experience flexible and low-pressure.",
   },
 ];
 
@@ -60,8 +75,9 @@ export default function Features() {
         </h2>
 
         <p className="mb-12 max-w-3xl text-base leading-8 text-[#F6F0FF]/85 sm:text-lg">
-          Kinstellation combines visual navigation with
-          flexible ways to capture and find information.
+          Kinstellation combines visual navigation,
+          meaningful memories, and intelligent search
+          to help you remember what matters.
           The goal is to reduce cognitive effort without
           making relationships feel like another task list.
         </p>
@@ -79,6 +95,7 @@ export default function Features() {
               <h4 className="mb-3 text-lg font-semibold text-[#FFE0AA]">
                 {feature.title}
               </h4>
+
               <p className="leading-7 text-[#F6F0FF]/85">
                 {feature.description}
               </p>
@@ -110,8 +127,10 @@ export default function Features() {
           </div>
 
           <p className="mt-9 border-t border-[#B7A9F5]/20 pt-6 text-sm italic text-[#B7A9F5]">
-            Future capabilities are exploratory and are
-            not yet part of the working prototype.
+            Kinstellation is an evolving prototype.
+            The public demo showcases its current
+            capabilities using fictional data;
+            future features are exploratory.
           </p>
         </div>
       </div>

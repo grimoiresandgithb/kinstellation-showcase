@@ -22,15 +22,15 @@ export default function PrototypeShowcase() {
         </h2>
 
         <p className="mb-8 max-w-3xl text-base leading-8 text-[#F6F0FF]/90 sm:text-lg">
-          Explore your connections, capture meaningful details,
-          and find information when you need it through
-          natural-language search.
+          Step into a fictional universe of 21 stars connected through friendships, family, and chosen community.
+          Explore their relationships, discover the little things worth remembering, and ask Kinstellation 
+          questions using natural language.
         </p>
 
         {/* Interactive demo button */}
         <div className="mb-12 flex flex-col items-center gap-4 text-center sm:flex-row sm:justify-start sm:text-left">
           <a
-            href="https://kinstellation-psi.vercel.app/"
+            href="https://kinstellation-alyssa19.vercel.app/demo"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[#B7A9F5] px-8 py-4 text-center font-semibold text-[#17152F] transition hover:bg-[#FFE0AA] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFE0AA]"
@@ -39,7 +39,8 @@ export default function PrototypeShowcase() {
           </a>
 
           <p className="text-sm text-[#F6F0FF]/70">
-            Explore the working prototype in a new tab.
+            Explore 21 fictional stars, their connections,
+            and meaningful memories. No account required.
           </p>
         </div>
 
@@ -152,9 +153,10 @@ export default function PrototypeShowcase() {
               </h3>
 
               <p className="text-sm leading-7 text-[#F6F0FF]/85">
-                Use natural-language search to find
-                information across your connections
-                when you need it.
+                Ask questions like &ldquo;Who likes pottery?&rdquo;
+                or &ldquo;What does Maya enjoy?&rdquo;
+                Kinstellation searches saved memories and interests
+                to help you find the information that matters.
               </p>
             </div>
           </div>
